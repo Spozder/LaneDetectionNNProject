@@ -1,0 +1,15 @@
+<launch>
+  <arg name="SOURCE_DIR"/>
+  <arg name="TARGET_DIR"/>
+  <arg name="INPUT_FILE"/>
+  <arg name="OUPUT_FILE"/>
+
+  <node pkg="rosbag" type="play" name="rosbag" required="true" args="$(arg SOURCE_DIR)/$(arg INPUT_FILE)"/>
+  
+  <node name="extract" pkg="image_view" type="extract_images" required="true" output="screen">
+    <remap from="image" to="camera_array/cam2/image_raw"/>
+    <param name="sec_per_frame" value="1"/>
+    <param name="filename_format" value="$(arg TARGET_DIR)/$(arg OUPUT_FILE)"/>
+  </node>
+
+</launch>
