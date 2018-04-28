@@ -4,3 +4,6 @@ Our dataset is accessible through: https://drive.google.com/file/d/1qAJaZpKN2pOB
 https://drive.google.com/file/d/1Pvq2ARS3Q-aQU9FPidD2m7dXc1QX9TIR/view?usp=sharing
 https://drive.google.com/file/d/1-HOy9858B0zEfZ1NF9bs9ScLbCIiyjzN/view?usp=sharing
 https://drive.google.com/file/d/1ovPzWRFmHBX3H1GaKuKGE2EtlE0PAiwN/view?usp=sharing
+
+Due to the limitation of file size in GitHub, the sample result of lane detection can be found from:
+https://drive.google.com/file/d/1sQODnrLSRk_TM8papnLl7-LPbNwTNFTe/view?usp=sharing
