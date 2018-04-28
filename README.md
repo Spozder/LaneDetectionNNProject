@@ -7,3 +7,13 @@ https://drive.google.com/file/d/1ovPzWRFmHBX3H1GaKuKGE2EtlE0PAiwN/view?usp=shari
 
 Due to the limitation of file size in GitHub, the sample result of lane detection can be found from:
 https://drive.google.com/file/d/1sQODnrLSRk_TM8papnLl7-LPbNwTNFTe/view?usp=sharing
+
+Output sample of CNN
+<p align="center">
+  <img src="https://github.com/Spozder/LaneDetectionNNProject/blob/ShenBranch/Results/UnderBridgeCNN.png" width="800px" height="200px"/>
+</p>
+
+Output Optimized by RNN
+<p align="center">
+  <img src="https://github.com/Spozder/LaneDetectionNNProject/blob/ShenBranch/Results/UnderBridgeCombined.png" width="800px" height="200px"/>
+</p>
